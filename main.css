@@ -1,0 +1,35 @@
+body {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: 	#FAFAD2;
+    margin: 0;
+    padding: 50px;
+
+}
+
+ul {
+    margin: 0;
+}
+
+div.list_one > ul > li:nth-child(even) {
+    color: #DB7093;
+}
+
+div.list_two > ul > li:nth-child(odd) {
+    font-size: 23px;
+}
+
+div.list_three > ul > li:nth-child(2n+4):after {
+    content: " !";
+    color: red;
+}
+
+div.list_four > ul > li:last-child {
+    color: #8B008B;
+}
+
+div.list_five > ul > li::first-letter {
+    font-size: 30px;
+    color: red;
+}
